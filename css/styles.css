@@ -447,6 +447,10 @@ border-bottom: 1px solid #ECECEC;
   fill: var(--text-secondary);
 }
 /* .contact-link-icon, */
+:focus .links-icon {
+  fill: var(--white-color);
+}
+
 
 
 .links-icon:hover,
