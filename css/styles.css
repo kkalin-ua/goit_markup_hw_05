@@ -106,7 +106,7 @@ h1, h2, h3, ul, p, li {
   line-height: 16px;
   letter-spacing: 0.02em;
   color: var(--black-color);
-}
+} 
 
 
 
@@ -135,10 +135,14 @@ h1, h2, h3, ul, p, li {
 .section-cap-btn:hover,
 .section-cap-btn:focus {
   color: var(--blue-color);
+  /* outline: none; */
 }
 /* .header-items-adress:hover, */
 /* .header-items-adress:focus */
-
+:active, :hover, :focus {
+  outline: 0;
+  outline-offset: 0;
+}
 
 
 
@@ -639,7 +643,7 @@ border-bottom: 1px solid #ECECEC;
   transition: transform 250ms ease;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
-.thumb-hidden:hover .overlay {
+.section-project-link:hover .overlay {
   transform: translateX(0);
 }
 
